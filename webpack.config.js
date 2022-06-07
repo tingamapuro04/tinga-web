@@ -6,7 +6,7 @@ module.exports = {
   entry: './src/index.js',
   mode: 'development',
   devServer: {
-    open: true
+    open: true,
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -25,7 +25,7 @@ module.exports = {
     /* new CleanWebpackPlugin(), */
     new HtmlWebpackPlugin({
       title: 'Webpack',
-      template: './src/index.html'
+      template: './src/index.html',
     }),
   ],
 };
