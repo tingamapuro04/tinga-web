@@ -1,3 +1,5 @@
+/*eslint-disable*/
+
 import './style.css';
 
 class Activities {
